@@ -13,6 +13,12 @@ This package has the following requirements:
 * `scipy`
 * `scikit-learn`
 * `matplotlib`
+
+### Installation
+You can install the dependencies using pip:
+```bash
+pip install numpy mpmath scipy scikit-learn matplotlib
+```
 ## Project Structure
 We provide core modules for selective inference and example scripts demonstrating how to use the LIME-SI package:
 
