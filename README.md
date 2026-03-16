@@ -17,19 +17,19 @@ This package has the following requirements:
 We provide core modules for selective inference and example scripts demonstrating how to use the LIME-SI package:
 
 ### Core Modules (lime_si/)
-lime.py: Implementation of the LIME algorithm integrated with Selective Inference logic.
+*`lime.py`: Implementation of the LIME algorithm integrated with Selective Inference logic.
 
-parametric_lasso.py: Handles the Lasso optimization path and the geometry of the polyhedral selection event.
+*`parametric_lasso.py`: Handles the Lasso optimization path and the geometry of the polyhedral selection event.
 
-compute_p_value.py: Functions to calculate the truncated Gaussian p-values.
+*`compute_p_value.py`: Functions to calculate the truncated Gaussian p-values.
 
-gen_data.py: Utilities for generating synthetic data and local perturbations.
+*`gen_data.py`: Utilities for generating synthetic data and local perturbations.
 
-util.py: Core mathematical helpers and statistical distribution functions.
+*`util.py`: Core mathematical helpers and statistical distribution functions.
 
 ### Example Scripts (example/)
-ex1_p_value.py: Example for computing selective p-values for feature importance.
+*`ex1_p_value.py`: Example for computing selective p-values for feature importance.
 
-ex2_pivot.py: Demonstrates the calculation and uniformity of the pivotal quantities.
+*`ex2_pivot.py`: Demonstrates the calculation and uniformity of the pivotal quantities.
 
-ex3_confidence_interval.py: Constructing valid selective confidence intervals for the local model coefficients.
+*`ex3_confidence_interval.py`: Constructing valid selective confidence intervals for the local model coefficients.
